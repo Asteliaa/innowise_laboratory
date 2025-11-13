@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lecture_1"
+version = "0.1.0"
+description = "Lecture 1 demo project"
+authors = [
+    { name = "Ruslana Ziamlianik" }
+]
+dependencies = [
+    "colorama>=0.4.6",
+]
